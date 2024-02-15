@@ -1,0 +1,26 @@
+{
+    "name": "bearlovescode/laravel-traits",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bearlovescode\\LaravelTraits\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nic Barr",
+            "email": "code@nicholasbarr.net"
+        }
+    ],
+    "repositories": [
+        { "type":  "git", "url":  "git@github.com:bearlovescode/datamodels.git"}
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.22",
+        "illuminate/http": "^10.22",
+        "bearlovescode/datamodels": "^1.1",
+        "illuminate/view": "^10.22",
+        "illuminate/database": "^10.22"
+    }
+}
