@@ -2,7 +2,7 @@
     namespace Bearlovescode\LaravelTraits\Controllers;
 
     use Illuminate\View\View;
-    use Theothernic\Datamodels\View\ViewModel;
+    use Bearlovescode\Datamodels\View\ViewModel;
 
     trait ViewController
     {
